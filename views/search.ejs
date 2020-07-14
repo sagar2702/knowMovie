@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieInfo</title>
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body >
+    <div class="container mt-5">
+        <% if(error.length !== 0){%>
+            <div class="alert alert-danger text-center">
+                <%= error %>
+            </div>
+        <% } %>
+    </div>
+   
+    <div class="container" id="search">
+        <form action="/" method="POST">
+            <div class="form-row">
+                <div class="col-md-10 ">
+                  <input type="text" class="form-control form-control-lg text-center mb-1" id="inlineFormInputName" name="movieName" placeholder="Movie Title" required>
+                </div>
+                <div class="col-md-2"><button class="btn btn-lg btn-danger btn-block">Search </button></div>
+          </form>
+    </div>
+   
+</body>
+</html>
+

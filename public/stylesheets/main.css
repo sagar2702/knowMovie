@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    background-image: url("https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2019/04/shutterstock_407554567-compressor-1.jpg?w=780&h=408&crop=1");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: visible;
+    z-index: 0;
+}
+
+#movie{
+    margin-top: 5vh;
+}
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.box .text{
+    color: #DC3545;
+    font-weight: 800;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 45%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+    display: none;
+}
+
+#search{
+    position: relative;
+    margin-top: 38vh;
+    z-index: 1;
+}
+
+#inputMovie{
+    width: 100%;
+}
